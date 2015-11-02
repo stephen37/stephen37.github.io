@@ -104,8 +104,9 @@
 </div>
 
 <!-- About Section -->
-<section id="about" class="about-section">
-    <div class="container">
+<div class="container">
+    <section id="about" class="about-section">
+
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="about-me">About Me</h1>
@@ -128,12 +129,14 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
+
+    </section>
+</div>
 
 <!-- Experience Section -->
-<section id="experience" class="experience-section">
-    <div class="container">
+<div class="container">
+    <section id="experience" class="experience-section">
+
         <div class="row">
             <div class="col-lg-12">
                 <h1>Experience</h1>
@@ -144,7 +147,7 @@
                     <p>
 
                     <h2>En Equipe</h2>
-                    <h5>Android & front-end developer</h5>
+                    <h5>Android and Front-end developer</h5>
 
                     <p>
                         I work for En Equipe as a freelancer
@@ -208,12 +211,14 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
+
+    </section>
+</div>
 
 <!-- Education Section -->
-<section id="education" class="education-section">
-    <div class="container">
+<div class="container">
+    <section id="education" class="education-section">
+
         <div class="row">
             <div class="col-lg-12 education">
                 <h1>Education</h1>
@@ -248,7 +253,7 @@
                                 <p>The <a
                                         href="http://www.universite-paris-saclay.fr/en/education/master/m1-jacques-herbrand-magistere">Magistère</a>
                                     program is an elite postgraduate program in Computer
-                                    Science, proposed by Ecole Polytechnique, ENS Cachan and University of Paris Sud.
+                                    Science, proposed by Ecole Polytechnique, ENS Cachan and Paris Sud University.
                                     <br/>
                                     <!--The most prestigious French universities offer "magistères" in Law, Economics, or Sciences, which are open to the highest-ranked students at the end of the first two years of studies. -->
                                 </p>
@@ -300,48 +305,55 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
+
+    </section>
+</div>
 
 <!-- Contact Section -->
-<section id="contact" class="contact-section">
-    <div class="container">
+<div class="container">
+    <section id="contact" class="contact-section">
+
         <div class="row">
             <div class="col-lg-12" id="contact-title">
                 <h1>Contact Me</h1>
             </div>
             <div class="col-sm-5">
                 <p class="text">
-                    I am located in Paris but I am looking for an internship all over the World. I will be available from May to August 2016.
-                    <br/>If you are interested in working with me, shoot me an email using the form on the right and I
+                    I am located in Paris but I am looking for an internship all over the World. I will be available
+                    from May to August 2016.
+                    <br/>If you are interested in working with me, shoot me an email using the form on the right or
+                    contact me on Angelist and I
                     will get back to you.
                     <br/>
                     Thanks !
                 </p>
             </div>
-            <div class="form col-sm-7">
-                <label for="contact_name" class="col-sm-2 control-label">Name</label>
+            <form role="form" id="contactForm">
+                <div class="form col-sm-7">
+                    <label for="contact-name" class="col-sm-2 control-label">Name</label>
 
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="contact-name" placeholder="Name">
-                </div>
-                <label for="contact-mail" class="col-sm-2 control-label">Mail</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                    </div>
+                    <label for="contact-email" class="col-sm-2 control-label">Mail</label>
 
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="contact-mail" placeholder="Mail">
-                </div>
-                <label for="contact-message" class="col-sm-2 control-label">Message</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="contact-email" placeholder="Mail">
+                    </div>
+                    <label for="contact-message" class="col-sm-2 control-label">Message</label>
 
-                <div class="col-sm-10">
-                    <textarea class="form-control" id="contact-message" rows="8" placeholder="Message"></textarea>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="contact-message" rows="8" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-sm-12 button">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
                 </div>
-                <div class="col-sm-12 button">
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-            </div>
+            </form>
         </div>
-    </div>
-</section>
+
+    </section>
+</div>
 
 <!--
 *
@@ -382,6 +394,9 @@
 <!-- Scrolling Nav JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/scrolling-nav.js"></script>
+
+<!-- Mail Javascript -->
+<script src="js/form-scripts.js"></script>
 
 </body>
 
