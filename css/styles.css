@@ -105,5 +105,16 @@ h1 {
 }
 
 .navbar-inverse {
-    margin-bottom:0px;
+    margin-bottom: 0px;
+}
+
+.container-grey-section {
+    width: 100%;
+
+    background: #eee;
+}
+
+.container-white-section {
+    width: 100%;
+    background: #fff;
 }
