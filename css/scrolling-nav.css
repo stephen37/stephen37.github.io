@@ -14,12 +14,12 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
+@media (min-width: 767px) {
     .navbar {
         padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
 
     .top-nav-collapse {
@@ -33,6 +33,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
+    width: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
@@ -40,6 +41,7 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
+    width: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
@@ -47,6 +49,7 @@ of those sections to manage the look and feel of the site. */
 
 .experience-section {
     height: 100%;
+    width: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
@@ -54,12 +57,15 @@ of those sections to manage the look and feel of the site. */
 
 .education-section {
     height: 100%;
+    width: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
+
 .contact-section {
     height: 100%;
+    width: 100%;
     padding-top: 100px;
     text-align: center;
     background: #fff;

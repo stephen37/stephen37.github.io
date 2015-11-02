@@ -103,3 +103,7 @@ h1 {
 .navbar-text > p {
     font-size: 110%;
 }
+
+.navbar-inverse {
+    margin-bottom:0px;
+}
