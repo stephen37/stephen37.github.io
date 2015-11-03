@@ -120,6 +120,11 @@ h1 {
     background: #fff;
 }
 
+
+.navbar-toggle {
+    float: left;
+    margin-left:15px;
+}
 @media(min-width:1200px){
     .container-grey-section {
         width: 100%;
