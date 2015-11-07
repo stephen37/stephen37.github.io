@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.764706">
-              <caret line="137" column="101" selection-start-line="137" selection-start-column="101" selection-end-line="137" selection-end-column="101" />
+            <state vertical-scroll-proportion="-11.470589">
+              <caret line="157" column="105" selection-start-line="157" selection-start-column="105" selection-end-line="157" selection-end-column="105" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="scrolling-nav.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/scrolling-nav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95011085">
-              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8004435">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -85,9 +85,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/collapse.js" />
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
-        <option value="$PROJECT_DIR$/css/scrolling-nav.css" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/scrolling-nav.css" />
       </list>
     </option>
   </component>
@@ -346,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.764706">
-          <caret line="137" column="101" selection-start-line="137" selection-start-column="101" selection-end-line="137" selection-end-column="101" />
+        <state vertical-scroll-proportion="-11.470589">
+          <caret line="157" column="105" selection-start-line="157" selection-start-column="105" selection-end-line="157" selection-end-column="105" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -356,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scrolling-nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95011085">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8004435">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding />
         </state>
       </provider>
