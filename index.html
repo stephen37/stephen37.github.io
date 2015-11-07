@@ -33,7 +33,6 @@
 </head>
 
 
-
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -238,7 +237,7 @@
                         degree</a> of computer science - <strong>Graduation :</strong> 2017</p>
 -->
                     <div>
-                        <p>I am doing a Master's degree and a Magistère of Computer Science. </p>
+                        <p>I am doing a Master's degree and a Magistère in Computer Science. </p>
                         <br>
                         <ul>
                             <li>
@@ -261,6 +260,101 @@
                                 </p>
                             </li>
                         </ul>
+
+
+                        <!-- Here, we collapse the relevant coursework -->
+                        <strong><u>Relevant coursework :</u></strong><br><br>
+
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            First Semester
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <div class="col-sm-4">
+                                            <ul>
+                                                <li>
+                                                    Advanced algorithms
+                                                </li>
+                                                <li>
+                                                    Parallel and Distributed programming
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul>
+                                                <li>
+                                                    Networks
+                                                </li>
+                                                <li>
+                                                    English
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <li>
+                                                Advanced Database
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                           data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                           aria-controls="collapseTwo">
+                                            Second semester
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <div class="col-sm-4">
+                                            <ul>
+                                                <li>
+                                                    Introduction to machine learning
+                                                </li>
+                                                <li>
+                                                    Probability, statistics and information theory
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul>
+                                                <li>
+                                                    Augmented Reality
+                                                </li>
+                                                <li>
+                                                    Mixed reality and tangible interfaces
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <li>
+                                                Introduction to compilation
+                                            </li>
+                                            <li>
+                                                TBD
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                         <!--
                                                 <p>Relevant coursework : </p>
 
@@ -334,17 +428,17 @@
                 <div class="form col-sm-7">
                     <label for="contact-name" class="col-sm-2 control-label">Name</label>
 
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 margin-form">
                         <input type="text" class="form-control" id="contact-name" placeholder="Name">
                     </div>
                     <label for="contact-email" class="col-sm-2 control-label">Mail</label>
 
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 margin-form">
                         <input type="text" class="form-control" id="contact-email" placeholder="Mail">
                     </div>
                     <label for="contact-message" class="col-sm-2 control-label">Message</label>
 
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 margin-form">
                         <textarea class="form-control" id="contact-message" rows="8" placeholder="Message"></textarea>
                     </div>
                     <div class="col-sm-12 button">
@@ -402,8 +496,8 @@
 
 <!-- Collapse javascript -->
 <script type="text/javascript">
-    $(document).on('click','.navbar-collapse.in',function(event) {
-        if( $(event.target).is('a') ) {
+    $(document).on('click', '.navbar-collapse.in', function (event) {
+        if ($(event.target).is('a')) {
             $(this).collapse('hide');
         }
     });
