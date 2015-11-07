@@ -36,7 +36,6 @@ of those sections to manage the look and feel of the site. */
     /*width: 100%;*/
     padding-top: 150px;
     text-align: center;
-    background: #fff;
 }
 
 .about-section {
@@ -44,7 +43,6 @@ of those sections to manage the look and feel of the site. */
     /*width: 100%;*/
     padding-top: 150px;
     text-align: center;
-    background: #eee;
 }
 
 .experience-section {
@@ -52,7 +50,6 @@ of those sections to manage the look and feel of the site. */
     /*width: 100%;*/
     padding-top: 150px;
     text-align: center;
-    background: #fff;
 }
 
 .education-section {
@@ -60,7 +57,6 @@ of those sections to manage the look and feel of the site. */
     /*width: 100%;*/
     padding-top: 150px;
     text-align: center;
-    background: #eee;
 }
 
 .contact-section {
@@ -68,5 +64,4 @@ of those sections to manage the look and feel of the site. */
     /*width: 100%;*/
     padding-top: 100px;
     text-align: center;
-    background: #fff;
 }
