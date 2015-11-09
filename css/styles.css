@@ -196,6 +196,17 @@ h1 {
 
 }
 
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #84888b;
+
+    }
+    .navbar-default .navbar-collapse{
+        border-color: transparent;
+    }
+
+}
+
 .margin-form {
     margin-bottom: 10px;
 }
@@ -207,4 +218,8 @@ h1 {
 
 .panel-heading > h4 > a:hover {
     color: #84849c;
+}
+
+.navbar-collapse {
+    /*background-color: #84888b;*/
 }
