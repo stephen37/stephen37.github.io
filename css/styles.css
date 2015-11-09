@@ -196,13 +196,20 @@ h1 {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .navbar-collapse {
         background-color: #84888b;
 
     }
     .navbar-default .navbar-collapse{
         border-color: transparent;
+    }
+    .h1-name {
+        font-size: 4em;
+    }
+
+    .cs-student {
+        font-size: 1em;
     }
 
 }
