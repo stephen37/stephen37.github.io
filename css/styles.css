@@ -9,14 +9,14 @@
     /*margin-top: 5vh;*/
 }
 
-
 .h1-name {
     font-size: 6em;
 }
 
 .cs-student {
-    font-size:2em;
+    font-size: 2em;
 }
+
 .intro-sites {
     margin-bottom: 50px;
     color: #000;
@@ -186,15 +186,17 @@ h1 {
     margin-bottom: 10px;
 }
 
-
 .navbar-default .navbar-nav > .active > a {
     color: #FFF;
     /*background-color: #000;*/
 }
 
-
-.test-vertical-center{
+.test-vertical-center {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.panel-heading > h4 > a:hover {
+    color: #84849c;
 }

@@ -29,6 +29,32 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            var scroll_start = 0;
+            var startchange = $('#startchange');
+            var offset = startchange.offset();
+            var about_section = $('#about');
+            if (startchange.length) {
+                $(document).scroll(function () {
+                    scroll_start = $(this).scrollTop();
+                    if (scroll_start > offset.top) {
+                        $(".navbar-default").css('background-color', '#84888b');
+                        $(".active").css('color', "#000000");
+                        //$(".active").css('background-color', "#8a8a8a");
+                    } else {
+                        $('.navbar-default').css('background-color', 'transparent');
+                        $(".active").css('color', "#FFFFFF");
+                        //$(".active").css('background-color', "transparent");
+                    }
+                });
+            }
+        });
+
+    </script>
 
 </head>
 
@@ -81,9 +107,9 @@
 </nav>
 
 <!-- Intro Section -->
-<div id="intro" class="container-white-section col-sm-12">
+<div id="intro" class="container-grey-section col-sm-12">
     <div class="container intro-section">
-        <div class="row test-vertical-center">
+        <div class="row test-vertical-center" id="startchange">
             <div class="col-sm-12 intro-sites">
                 <h1 class="h1-name">STEPHEN BATIFOL</h1>
 
@@ -124,7 +150,7 @@
 </div>
 
 <!-- About Section -->
-<div id="about" class="container-grey-section col-sm-12">
+<div id="about" class="container-white-section col-sm-12">
     <div class="container about-section">
 
         <div class="row">
@@ -171,7 +197,7 @@
 </div>
 
 <!-- Experience Section -->
-<div class="container-white-section col-sm-12">
+<div class="container-grey-section col-sm-12">
     <div id="experience" class="container experience-section">
 
         <div class="row">
@@ -252,7 +278,7 @@
 </div>
 
 <!-- Education Section -->
-<div class=" container-grey-section col-sm-12">
+<div class=" container-white-section col-sm-12">
     <div id="education" class="container education-section">
 
         <div class="row">
