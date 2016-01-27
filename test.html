@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stephen Batifol</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            var scroll_start = 0;
+            var startchange = $('#startchange');
+            var offset = startchange.offset();
+            var about_section = $('#about');
+            if (startchange.length) {
+                $(document).scroll(function () {
+                    scroll_start = $(this).scrollTop();
+                    if (scroll_start > offset.top) {
+                        $(".navbar-default").css('background-color', '#84888b');
+                        $(".active").css('color', "#000000");
+                        //$(".active").css('background-color', "#8a8a8a");
+                    } else {
+                        $('.navbar-default').css('background-color', 'transparent');
+                        $(".active").css('color', "#FFFFFF");
+                        //$(".active").css('background-color', "transparent");
+                    }
+                });
+            }
+        });
+
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-69917903-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!--Image background -->
+<div class="background-image"></div>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top content" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse ">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse" data-toggle="collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a class="page-scroll" href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll active" href="#page-top">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About Me</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#experience">Experience</a>
+                </li>
+                <!--li>
+                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                </li-->
+                <li>
+                    <a class="page-scroll" href="#education">Education</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <!--li>
+                    <a class="page-scroll" href="#contact">Contact Me</a>
+                </li-->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Section -->
+<div id="intro" class="container-grey-section col-sm-12">
+    <div class="container intro-section">
+        <div class="row test-vertical-center" id="startchange">
+            <div class="col-sm-12 intro-sites">
+                <h1 class="h1-name">STEPHEN BATIFOL</h1>
+
+                <div class="spacer"></div>
+                <p class="cs-student">COMPUTER SCIENCE STUDENT<br> FREELANCE DEVELOPER </p>
+                    <span class="social-icon">
+                        <a href="https://angel.co/_stephencs"> <i class="fa fa-angellist fa-5x" alt="AngelList"></i></a>
+                        <a href="https://github.com/stephen37/"><i class="fa fa-git fa-5x" alt="Github"></i></a>
+                        <a href="https://fr.linkedin.com/pub/stephen-batifol/96/44/558"> <i class="fa fa-linkedin fa-5x"
+                                                                                            alt="linkedin"></i></a>
+                        <a href="https://twitter.com/_stephenCS"><i class="fa fa-twitter fa-5x" alt="Twitter"></i></a>
+                        <a href="https://plus.google.com/u/1/116282835305895621143/posts"><i
+                                class="fa fa-google-plus fa-5x" alt="Google Plus"></i></a>
+                    </span>
+                <br>
+                <br>
+
+                <!--div class="col-sm-3"></div>
+                <div class="col-sm-6 text-intro">
+                    <div class="hello-intro">Hello,</div>
+                    I'm a computer science student located in Paris. I'am currently looking for an internship all over
+                    the
+                    World. I will be available
+                    from May to August 2016.
+                    <br/>If you are interested in working with me, shoot me an email or contact me via social networks
+                    and I
+                    will get back to you.
+                    <br/>
+                    Thanks !
+                </div>
+                <div class="col-sm-3"></div-->
+            </div>
+
+
+            <!--a href="#contact" class="btn btn-primary page-scroll" id="contact-button">Contact me</a-->
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about" class="container-white-section col-sm-12">
+    <div class="container about-section">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="about-me">About Me</h1>
+
+                <div class="col-sm-5">
+                    <img src="img/profile_picture.jpg" alt="profile_picture" style="width:280px;height:280px;">
+                </div>
+                <div class="col-sm-7">
+                    <p class="text">
+                        Hello, <br/>
+                        My Name is Stephen Batifol, I am a Master's degree student at Paris Sud University, I am
+                        currently doing a double degree in Computer Science. <br> As well as being a full-time
+                        student,
+                        I'm
+                        also a freelance developer.
+                        I worked for En Equipe where I developed the Android application and their new
+                        website.
+                        <br/><br>
+                        I am mainly an Android and Java developer and I love to write software to make great
+                        products. I'm passionate about boxing and I was a French boxing champion.
+                        <!--If
+                           you wish to contact me, you can visit my <a href="#page-top" class="page-scroll">sites</a>. or
+                       you can contact me via the <a href="#contact" class="page-scroll">contact section</a-->
+                        <br><br>
+                        I'm currently looking for an internship all over the World. I will be available
+                        from May to August 2016.
+                        <br/>If you are interested in working with me, contact me using the<a href="#page-top"
+                                                                                              class="page-scroll">
+                        websites</a> you can see above
+                        and I
+                        will get back to you.
+                        <br/>
+                        Thanks !
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Experience Section -->
+<div class="container-grey-section col-sm-12">
+    <div id="experience" class="container experience-section">
+
+        <div class="row">
+            <div class="title-section">
+                <h1>Experience</h1>
+            </div>
+
+            <div class="col-lg-12" align="left">
+                <div>
+                    <p>
+
+                    <h2>En Equipe</h2>
+                    <h5>Android and Front-end developer (May 2015 - November 2015)</h5>
+
+                    <p>
+                    <ul>
+                        <li>Developed the <a
+                                href="https://play.google.com/store/apps/details?id=fr.enequipe.enequipe">Android
+                            application</a> of the company
+                        </li>
+                        <li>Developed the new <a href="http://www.enequipe.fr/club">website</a> website of the company
+                            using
+                            Bootstrap, HTML and CSS.
+                        </li>
+                    </ul>
+                    </p>
+                    </p>
+                </div>
+                <div>
+                    <h2>Saint-Gatien Clinic</h2>
+                    <h5>Computer systems and Network engineering intern (June 2011)</h5>
+
+                    <ul>
+                        <li>
+                            Provided remote and on-site support for domestic customers.
+                        </li>
+                        <li>
+                            Monitored the network and computers in the clinic.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Technicophone</h2>
+                    <h5>Computer networks and Telecommunication technician intern (July 2010)</h5>
+
+                    <ul>
+                        <li>
+                            Installed and set up Alcatel-Lucent telecommunication systems.
+                        </li>
+                        <li>
+                            Evaluated the cost of an installation and showed customers how to use products.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>SARL DMF</h2>
+                    <h5>Sales associate and Computer technician intern (June 2010)</h5>
+
+                    <ul>
+                        <li>
+                            Shop manager
+                        </li>
+                        <li>
+                            Welcomed and answered technical questions from customers.
+                        </li>
+                        <li>
+                            Supervised daily activies of an intern.
+                        </li>
+                        <li>
+                            Maintenance of computers, sale of computers, peripherals and softwares.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Portfolio Section -->
+
+<!-- Portfolio Grid Section -->
+<!--section id="portfolio" class="container-white-section col-sm-12">
+    <div class="container portfolio-section">
+        <div class="row">
+            <div class="title-section">
+                <h1>Portfolio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/ihm.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/devlog.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/mobile_3.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section -->
+
+<!-- Education Section -->
+<div class=" container-white-section col-sm-12">
+    <div id="education" class="container education-section">
+
+        <div class="row">
+            <div class="title-section">
+                <h1>Education</h1>
+            </div>
+            <div align="left">
+                <h3>Master's degree & Magistère in Computer Science</h3>
+
+                <h4>Paris Sud University - <strong>Graduation :</strong> 2017</h4>
+                <!--
+                <p>
+                    <a href="http://www.universite-paris-saclay.fr/en/education/master/m1-jacques-herbrand-magistere">Jacques
+                        Herbrand Magistère </a>of Computer Science - <strong>Graduation :</strong> 2017</p>
+
+                <p><a href="http://www.universite-paris-saclay.fr/fr/formation/master/m1-informatique-site-dorsay">Master's
+                    degree</a> of computer science - <strong>Graduation :</strong> 2017</p>
+-->
+                <div>
+                    <p>I am doing a Master's degree and a Magistère in Computer Science. </p>
+                    <ul>
+                        <li>
+                            The goal of the Computer Science <a
+                                href="https://www.lri.fr/~conchon/master_informatique/index-en.html">Master’s
+                            program</a> is to teach students the theoretical
+                            foundations and
+                            the various concepts and tools of computer science, so that they can adapt to and
+                            anticipate
+                            technological
+                            developments and integrate quickly in the industrial and scientific world.
+                        </li>
+                        <li>
+                            <p>The <a
+                                    href="http://www.universite-paris-saclay.fr/en/education/master/m1-jacques-herbrand-magistere">Magistère</a>
+                                program is an elite postgraduate program in Computer
+                                Science, proposed by Ecole Polytechnique, ENS Cachan and Paris Sud University.
+                                <br/>
+                                <!--The most prestigious French universities offer "magistères" in Law, Economics, or Sciences, which are open to the highest-ranked students at the end of the first two years of studies. -->
+                            </p>
+                        </li>
+                    </ul>
+
+
+                    <!-- Here, we collapse the relevant coursework for the master's degree -->
+                    <strong><u>Relevant coursework :</u></strong><br><br>
+
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Fall 2015
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <div class="col-sm-4">
+                                        <ul>
+                                            <li>
+                                                Advanced algorithms
+                                            </li>
+                                            <li>
+                                                Parallel and Distributed programming
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul>
+                                            <li>
+                                                Networks
+                                            </li>
+                                            <li>
+                                                Advanced Database
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                       data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                       aria-controls="collapseTwo">
+                                        Spring 2016
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <div class="col-sm-4">
+                                        <ul>
+                                            <li>
+                                                Introduction to machine learning
+                                            </li>
+                                            <li>
+                                                Probability, statistics and information theory
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul>
+                                            <li>
+                                                Neural networks to natural language processing
+                                            </li>
+                                            <li>
+                                                Artificial Intelligence
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul>
+                                            <li>
+                                                Introduction to compilation
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<p>The Jacques Herbrand Masters programme is an elite postgraduate programme in Computer Science, giving access to a selection of Master 1 tracks from the Paris-Saclay University, proposed by Ecole Polytechnique, ENS Cachan and Paris Sud University.</p-->
+
+                <h3>Bachelor of Computer Science</h3>
+                <h4>Paris Sud University - <strong>Graduated :</strong> 2015 <!--with honours<--></h4>
+                <h5>University honors : Cum Laude</h5>
+
+                <p>I received an undergraduate degree from Paris Sud University in 2015, you can see the list of my
+                    favorite coursework below. </p>
+
+                <strong><u>Favorite coursework :</u></strong><br><br>
+
+                <div class="panel-group" id="accordionBSC" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOneBSC">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordionBSC"
+                                   href="#collapseOneBSC" aria-expanded="false" aria-controls="collapseOneBSC">
+                                    Coursework
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOneBSC" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingOneBSC">
+                            <div class="panel-body">
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li>
+                                            Operating systems and concurrent computing
+                                        </li>
+                                        <li>
+                                            Computer architecture
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li>
+                                            Functionnal programming
+                                        </li>
+                                        <li>
+                                            Algorithms and data structures
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li>
+                                            Introduction to Human-computer interaction
+                                        </li>
+                                        <li>
+                                            Databases
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Here, we collapse the relevant coursework for the bachelor degree -->
+            <!--strong><u>Relevant coursework :</u></strong><br><br>
+
+            <div class="panel-group" id="accordionBSC" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOneBSC">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordionBSC"
+                               href="#collapseOneBSC" aria-expanded="false" aria-controls="collapseOneBSC">
+                                First Semester
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOneBSC" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="headingOneBSC">
+                        <div class="panel-body">
+                            <div class="col-sm-4">
+                                <ul>
+                                    <li>
+
+                                    </li>
+                                    <li>
+                                        Parallel and Distributed programming
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul>
+                                    <li>
+                                        Networks
+                                    </li>
+                                    <li>
+                                        English
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul>
+                                    <li>
+                                        Advanced Database
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwoBSC">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse"
+                               data-parent="#accordionBSC" href="#collapseTwoBSC" aria-expanded="false"
+                               aria-controls="collapseTwoBSC">
+                                Second semester
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwoBSC" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="headingTwoBSC">
+                        <div class="panel-body">
+                            <div class="col-sm-4">
+                                <ul>
+                                    <li>
+                                        Introduction to machine learning
+                                    </li>
+                                    <li>
+                                        Probability, statistics and information theory
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul>
+                                    <li>
+                                        Augmented Reality
+                                    </li>
+                                    <li>
+                                        Mixed reality and tangible interfaces
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul>
+                                    <li>
+                                        Introduction to compilation
+                                    </li>
+                                    <li>
+                                        TBD
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+        </div>
+
+
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<!-- Contact Section -->
+<div class=" container-grey-section col-sm-12">
+    <div id="contact" class="container contact-section">
+<!--section id="contact">
+    <div class="container"-->
+        <div class="row">
+            <div class="title-section">
+                <h1>Contact Me</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 contact-style">
+                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Message</label>
+                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 text-center">
+                            <button type="submit" class="btn btn-success btn-lg">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--
+*
+*
+*
+*
+* Footer
+*
+*
+*
+*
+-->
+<div class="navbar navbar-inverse col-sm-12" role="navigation">
+    <div class="container">
+        <div class="navbar-text pull-left">
+            <p>
+                <i class="fa fa-copyright"></i>
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>
+                Batifol
+            </p>
+        </div>
+        <div class="navbar-text pull-right">
+            <a href="https://angel.co/_stephencs"> <i class="fa fa-angellist fa-2x" alt="AngelList"></i></a>
+            <a href="https://github.com/stephen37/"><i class="fa fa-git-square fa-2x" alt="Github"></i></a>
+            <a href="https://fr.linkedin.com/pub/stephen-batifol/96/44/558"> <i class="fa fa-linkedin-square fa-2x"
+                                                                                alt="linkedin"></i></a>
+            <a href="https://twitter.com/_stephenCS"><i class="fa fa-twitter-square fa-2x" alt="Twitter"></i></a>
+            <a href="https://plus.google.com/u/1/116282835305895621143/posts"><i class="fa fa-google-plus-square fa-2x"
+                                                                                 alt="Google Plus"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/ihm.png" class="img-responsive img-centered" alt="">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/devlog.png" class="img-responsive img-centered" alt="">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/mobile_3.png" class="img-responsive img-centered" alt="">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
+                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
+                            only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Collapse javascript -->
+<script type="text/javascript">
+    $(document).on('click', '.navbar-collapse.in', function (event) {
+        if ($(event.target).is('a')) {
+            $(this).collapse('hide');
+        }
+    });
+</script>
+
+</body>
+
+</html>
