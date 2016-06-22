@@ -48,6 +48,14 @@ html {
     text-align: center;
 }
 
+
+.projects-section {
+    height: 100%;
+    /*width: 100%;*/
+    padding-top: 80px;
+    text-align: center;
+}
+
 .education-section {
     height: 100%;
     /*width: 100%;*/
