@@ -1,3 +1,7 @@
+#page-top {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
 .spacer {
     width: 100px;
     height: 2px;
@@ -7,6 +11,10 @@
 
 .container-intro {
     /*margin-top: 5vh;*/
+}
+
+.about-section {
+    /*font-size: 1em;*/
 }
 
 .h1-name {
@@ -73,20 +81,38 @@
 }
 
 #contact-button {
-    margin-top: 40px;
+    margin-top: 2%;
+    color: black;
 }
 
+.btn-secondary {
+    border: 1px solid black;
+}
 #contact-button > a:hover {
     background-color: #91a3b0;
 
 }
-
-h1 {
-    font-size: 400%;
-    font-family: 'Roboto', sans-serif;
+#link-mail:hover {
+background-color: #91a3b0 ;
 }
 
+.h1-perso {
+    font-size: 400%;
+}
+h1 {
+    /*font-size: 400%;*/
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+.h1-contact {
+    text-align: center;
+    padding-bottom: 5px;
+}
 
+.text-contact {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .intro-section > p {
     padding-top: 150px;
     text-align: center;
@@ -123,8 +149,31 @@ h1 {
     text-align: right;
 }
 
+.text-presentation {
+    text-align: center;
+    font-size: 1.3em;
+}
+.padded {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height:auto;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
 .text {
     text-align: left;
+    font-size: 1.3em;
+}
+h5 {
+    font-size: 1.3em;
 }
 
 .about-me {
@@ -140,6 +189,13 @@ h1 {
     margin-bottom: 30px;
 }
 
+.logos {
+    text-align: center;
+}
+.navbar-text {
+    text-align: center;
+    width: 100%;
+}
 .navbar-text > a,
 .navbar-text > p {
     color: #A9B3BB;
@@ -155,18 +211,20 @@ h1 {
 
 .navbar-inverse {
     margin-bottom: 0px;
+    position:static;
 }
 
 .container-grey-section {
     width: 100%;
     /*height: 100%;*/
-    background: #BDC3C7;
+    color: #d3d3d3;
+    background: #363636;
 }
 
 .container-white-section {
     width: 100%;
     /*height: 100%;*/
-    background: #fff;
+    background: lightgrey;
 }
 
 .navbar-toggle {
@@ -204,9 +262,11 @@ h1 {
         background-color: #84888b;
 
     }
-    .navbar-default .navbar-collapse{
+
+    .navbar-default .navbar-collapse {
         border-color: transparent;
     }
+
     .h1-name {
         font-size: 4em;
     }
@@ -216,7 +276,10 @@ h1 {
     }
 
 }
-
+.col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
 .margin-form {
     margin-bottom: 10px;
 }
@@ -229,7 +292,23 @@ h1 {
 .panel-heading > h4 > a:hover {
     color: #84849c;
 }
+.panel-body {
+    color: black;
+}
 
 .navbar-collapse {
     /*background-color: #84888b;*/
 }
+
+
+#contact {
+    text-align: center;
+}
+#contact > h1 {
+    font-size: 100%;
+}
+
+.right {
+    border-right: 1px solid black;
+}
+
